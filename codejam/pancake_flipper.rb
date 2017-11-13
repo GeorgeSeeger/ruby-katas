@@ -51,8 +51,8 @@ p PancakeGrill.solve('---+-++-', 3)
 p PancakeGrill.solve('-+-+-', 4)
 
 p PancakeGrill.solve('++--+-+--', 3)
-# input = File.readlines("A-small-practice.in")
-input = File.readlines("A-large-practice.in")
+input = File.readlines("A-small-practice.in")
+# input = File.readlines("A-ḷarge-practice.in")
 testNum = 0
 File.open("A-small.out", "w+") do |f|
   input[1..-1].each do |line|
